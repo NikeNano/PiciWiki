@@ -139,7 +139,7 @@ class BuildBase():
                 vectorImage=[self.model.predict(images).flatten()]
             for index in range(0,len(vectorsCloths)):
                 distance.append(self.measureSimilary.getAllSimilarities(vectorImage[0],vectorsCloths[index]))
-                print(self.measureSimilary.getAllSimilarities(vectorImage[0],vectorsCloths[index]))
+                #print(self.measureSimilary.getAllSimilarities(vectorImage[0],vectorsCloths[index]))
             return (distance)
 
 #myPathList=['PicturesTest/HM1.jpg','PicturesTest/HM2.jpg','PicturesTest/HM3.jpg','PicturesTest/HM4.jpg','PicturesTest/HM5.jpg','PicturesTest/HM6.jpg']

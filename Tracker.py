@@ -2,7 +2,7 @@
 """
 Created on Sat Nov  4 10:22:12 2017
 
-@author: Emil
+@author: ßßßil
 """
 
 #keras imports
